@@ -70,7 +70,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TNU-bL-m89"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.17936117168407809" green="0.38695076500946274" blue="0.55637100984140764" alpha="0.82999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>

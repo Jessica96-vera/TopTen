@@ -68,14 +68,14 @@
 		EE5BDA93266F748300C4389D /* TopTen */ = {
 			isa = PBXGroup;
 			children = (
+				EE5BDA94266F748300C4389D /* AppDelegate.swift */,
+				EE5BDA96266F748300C4389D /* SceneDelegate.swift */,
 				EE5BDAAD266F75C500C4389D /* Constants */,
 				EE5BDAAA266F74AA00C4389D /* Model */,
 				EE5BDAA9266F749F00C4389D /* View */,
 				EE5BDAA8266F749400C4389D /* ViewModel */,
-				EE5BDA94266F748300C4389D /* AppDelegate.swift */,
 				EE5BDAB3266FE69000C4389D /* MoviesTableViewCell.xib */,
 				EE5BDA9A266F748300C4389D /* Main.storyboard */,
-				EE5BDA96266F748300C4389D /* SceneDelegate.swift */,
 				EE5BDA9D266F748700C4389D /* Assets.xcassets */,
 				EE5BDA9F266F748700C4389D /* LaunchScreen.storyboard */,
 				EE5BDAA2266F748700C4389D /* Info.plist */,
@@ -351,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = developer.TopTen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -369,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = developer.TopTen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

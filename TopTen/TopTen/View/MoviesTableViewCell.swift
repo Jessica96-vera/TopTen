@@ -8,33 +8,30 @@
 import UIKit
 
 class MoviesTableViewCell: UITableViewCell {
-    // MARK: - Properties
+    
+    // MARK: Properties
     @IBOutlet weak var imageMovie: UIImageView!
     @IBOutlet weak var titleMovie: UILabel!
     @IBOutlet weak var dateMovie: UILabel!
     
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
     
     func getData(movie: MovieModel) {
-        if movie != nil {
-            self.titleMovie.text = movie.title
-            self.dateMovie.text = movie.date
-            self.imageView?.loadImage(url: URL(string: movie.posterPath)!)
-            
-            print(self.titleMovie.text)
-            print(self.dateMovie.text)
-            print("----------")
-        }
+        
+        self.titleMovie.text = movie.title
+        self.dateMovie.text = movie.date
+        self.imageView?.loadImage(url: URL(string: movie.posterPath)!)
+        
     }
     
 }

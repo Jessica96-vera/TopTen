@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    // MARK: IBOutlets 
     @IBOutlet weak var tableView: UITableView!
     
     var viewModel = ListViewModel()
